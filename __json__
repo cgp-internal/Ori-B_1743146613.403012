@@ -1,0 +1,27 @@
+{
+    "index.html": {
+        "description": "Main HTML file for the notes application. Contains the structure for displaying notes, input fields for creating/editing notes, and buttons for actions.",
+        "dependencies": {
+            "style.css": [],
+            "script.js": []
+        }
+    },
+    "style.css": {
+        "description": "CSS file for styling the notes application. Includes styles for the overall layout, note display, input fields, and buttons.",
+        "exposes": []
+    },
+    "script.js": {
+        "description": "JavaScript file containing the logic for creating, reading, updating, and deleting notes. Uses the browser's local storage API to persist data.",
+        "dependencies": {},
+        "exposes": [
+            "createNote",
+            "readNotes",
+            "updateNote",
+            "deleteNote"
+        ]
+    },
+    "README.md": {
+        "description": "README file with project description, instructions on how to use the application, and information on local storage usage.",
+        "exposes": []
+    }
+}
