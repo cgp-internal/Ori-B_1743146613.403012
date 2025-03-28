@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#notes-header {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+#notes-form {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+#notes-form input[type="text"],
+#notes-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#notes-form button {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#notes-form button:hover {
+    background: #444;
+}
+
+#notes-list {
+    list-style: none;
+    padding: 0;
+}
+
+.note {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.note h2 {
+    margin-top: 0;
+}
+
+.note p {
+    margin-bottom: 0;
+}
+
+.note .note-actions {
+    margin-top: 10px;
+}
+
+.note .note-actions button {
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.note .note-actions button:hover {
+    background: #444;
+}
+
+.note.editing {
+    background-color: #f0f0f0;
+}
+
+.note.editing input[type="text"],
+.note.editing textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
